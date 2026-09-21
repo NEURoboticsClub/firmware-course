@@ -27,7 +27,7 @@ In week 1, we will be learning what firmware is and what you can do with it.  Ad
 
 ### Labs
 
-For week 1, there is one lab, [blink](./labs/week-1/blink/).  Blink is the classic "Hello World" of the Arduino world.  In this lab, you will be learning how to interface with the Arduino Nano to blink the onboard led.
+For week 1, there is one lab, [blink](./labs/week-1/blink/).  Blink is the classic "Hello World" of the Arduino world.  In this lab, you will be learning how to interface with an Arduino to blink the onboard led.
 
 ## Week 2
 
