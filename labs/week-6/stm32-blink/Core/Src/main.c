@@ -1,5 +1,26 @@
 /* USER CODE BEGIN Header */
 /**
+ * STM32 Blink - NURobotics Firmware Training Week 6
+ * 
+ * As an introduction to the STM32, we're going to be blinking the onboard LED on
+ * the "Blue Pill" board.  The onboard LED is attached to pin 13 on port C. For clarity,
+ * the macros LED_Pin and LED_GPIO_Port have been defined to refer to pin 13 and port C
+ * respectively.
+ * 
+ * As a first task, try blinking the led using the STM32's HAL
+ * 
+ * Once you can blink the led using the HAL, try blinking the LED by writing registers directly!
+ * 
+ * 
+ * Hint: Take a look at the STM32F1's HAL documentation:
+ * (https://www.st.com/resource/en/user_manual/dm00154093-description-of-stm32f1-hal-and-lowlayer-drivers-stmicroelectronics.pdf)
+ * and STM32F103's reference reference (for register addresses):
+ * (https://www.st.com/resource/en/reference_manual/rm0008-stm32f101xx-stm32f102xx-stm32f103xx-stm32f105xx-and-stm32f107xx-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
+ * 
+ * Author: Casey Goyette <ctgoyette21@gmail.com>
+ */
+
+/**
   ******************************************************************************
   * @file           : main.c
   * @brief          : Main program body
