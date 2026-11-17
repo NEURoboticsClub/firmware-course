@@ -11,12 +11,16 @@
  * 
  * Once you can blink the led using the HAL, try blinking the LED by writing registers directly!
  * 
- * 
  * Hint: Take a look at the STM32F1's HAL documentation:
  * (https://www.st.com/resource/en/user_manual/dm00154093-description-of-stm32f1-hal-and-lowlayer-drivers-stmicroelectronics.pdf)
  * and STM32F103's reference reference (for register addresses):
  * (https://www.st.com/resource/en/reference_manual/rm0008-stm32f101xx-stm32f102xx-stm32f103xx-stm32f105xx-and-stm32f107xx-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
  * 
+ *
+ * Here are the functions you'll need for this week's lab:
+ * - HAL_GPIO_TogglePin()
+ * - HAL_Delay()
+ *
  * Author: Casey Goyette <ctgoyette21@gmail.com>
  */
 
@@ -116,11 +120,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
-    HAL_GPIO_TogglePin(LED_GPIO_Port,
-                   LED_Pin);
-    HAL_Delay(500);
-
+    
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
